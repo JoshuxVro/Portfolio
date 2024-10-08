@@ -136,8 +136,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
     "Stock Application that takes a stock ticker as input and predicts tomorrow's closing price, it also graphically represents prices of past 30 days",
-    image:
-      "https://private-user-images.githubusercontent.com/160778757/311453745-0104558d-9351-41e2-a858-6879e0c04dad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyNzkwMTAsIm5iZiI6MTcyODI3ODcxMCwicGF0aCI6Ii8xNjA3Nzg3NTcvMzExNDUzNzQ1LTAxMDQ1NThkLTkzNTEtNDFlMi1hODU4LTY4NzllMGMwNGRhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwN1QwNTI1MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MzdmMjRjZDg2MDU0MjVkN2MwZjdhYTc0NmFlNzI5OTlkOGI2ZjhiZmE3MDk2MjlmZjQxNzliNGI2MWU5YjcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xafxt6iJNTZ8mey7h2P59CsW-BeUNCQOl-vT7AkRQeY",
+    image:"https://drive.google.com/file/d/1N83_2nrty1c1kyQhZ2VsmsVEKG1W6zT7/view?usp=drive_link",
     tags: [
       "Docker",
       "AWS",
