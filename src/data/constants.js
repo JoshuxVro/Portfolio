@@ -136,7 +136,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
     "Stock Application that takes a stock ticker as input and predicts tomorrow's closing price, it also graphically represents prices of past 30 days",
-    image:"https://drive.google.com/file/d/1N83_2nrty1c1kyQhZ2VsmsVEKG1W6zT7/view?usp=drive_link",
+    image:"https://i.ibb.co/7KxTYB8/stock1-1.png",
     tags: [
       "Docker",
       "AWS",
@@ -156,7 +156,7 @@ export const projects = [
     description:
       "Developed a full-stack web application AI Assistant for judiciary information.Worked on the chatbot.",
     image:
-      "https://private-user-images.githubusercontent.com/160778757/374040710-08021602-9ee9-4f3f-8844-364ebcecbfec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyNzg5MTksIm5iZiI6MTcyODI3ODYxOSwicGF0aCI6Ii8xNjA3Nzg3NTcvMzc0MDQwNzEwLTA4MDIxNjAyLTllZTktNGYzZi04ODQ0LTM2NGViY2VjYmZlYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwN1QwNTIzMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjBmNjdjZmE3NzdmYzVhYzlmZjkwNmY0MTU1OTY5ZGExYjZjNWI2YjUxMzIwMzkxOTIxMjU4Zjg0MDk1M2Y3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.glRMRg0r0kG1a-QQdHhf2TkrWc527znTCBzpYvXiuFY",
+      "https://i.ibb.co/GpWjGKB/nyaymitr.png",
     tags: ["React Js", "Python", "GROQ", "Langchain", "RAG"],
     category: "web app",
     github: "https://github.com/shriharit04/NyayMitra-SIH",
@@ -196,7 +196,7 @@ export const projects = [
     description:
     "Developed a News Web App, capable of dynamically changing news daily and taking user input to search for relevant news, and displaying the articles.",
     image:
-      "https://private-user-images.githubusercontent.com/160778757/374038543-8cc46b02-8a3d-4ed6-8bc0-4b0938360aa9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyNzgyNTgsIm5iZiI6MTcyODI3Nzk1OCwicGF0aCI6Ii8xNjA3Nzg3NTcvMzc0MDM4NTQzLThjYzQ2YjAyLThhM2QtNGVkNi04YmMwLTRiMDkzODM2MGFhOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwN1QwNTEyMzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00OWFkNDNjMmY2MDdkNWE1NmJmMDQyN2YyMDZlZjFmZmVlYzMxNjc1YWE0M2I1NmJkMzQ3M2Y5MDJkYTNhM2ZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4Cm03zh73eOduxpYz7QwI4LsIMFhl67F5AqWPYrnsUA",
+      "https://i.ibb.co/9stqrTM/newsapp.png",
     tags: ["HTML", "CSS", "JavaScript", "React"],
     category: "web app",
     github: "https://github.com/LiandarJoshua/NewsAPP-Web-Programming-Course-Mini-Project-",
