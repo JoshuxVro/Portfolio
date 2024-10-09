@@ -207,8 +207,7 @@ export const projects = [
     date: "Jul 2023",
     description:
     "A Basic Dashboard for Traffic management, that is capable of taking a video input and detecting vehicles on each lane,indicating traffic density. Integrated with SQLite.",
-    image:
-      "https://private-user-images.githubusercontent.com/160778757/373865469-c2535b3a-9daa-4bf1-9f80-f9c17b6ac608.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyNzgzNzMsIm5iZiI6MTcyODI3ODA3MywicGF0aCI6Ii8xNjA3Nzg3NTcvMzczODY1NDY5LWMyNTM1YjNhLTlkYWEtNGJmMS05ZjgwLWY5YzE3YjZhYzYwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwN1QwNTE0MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOTdhYjU5M2QwNTViNzg3Y2U3Y2UxZTg2Y2IzNjhmOGVjYTAwYTExYmUyMzA3ZWQxNDdjMTMyODBlZTMwNDdiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lSoKE-teXVoZ7AHByJHx62WuCnHGpgPja-k5VFDWoZ4",
+    image:"https://i.ibb.co/37mTkg6/traffic.png",
     tags: ["SQLite","Computer Vision","YOLO","Streamlit"],
     category: "web app",
     github: "https://github.com/LiandarJoshua/Traffic-Management-Dashboard",
