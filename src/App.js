@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+import { useState } from "react";
+import { darkTheme, lightTheme, offWhiteTheme } from './utils/Themes.js'; // Import the new theme
 import Navbar from "./components/Navbar";
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -24,16 +24,24 @@ const Body = styled.div`
 const Wrapper = styled.div`
   background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
-`
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+`;
+
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [theme, setTheme] = useState(offWhiteTheme); // Set the initial theme to offWhiteTheme
+  const [darkMode, setDarkMode] = useState(false); // Adjust darkMode accordingly
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+
+  // Example function to toggle between themes
+  const toggleTheme = () => {
+    setDarkMode(!darkMode);
+    setTheme(darkMode ? lightTheme : offWhiteTheme); // Toggle between light and offWhite themes
+  };
+
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
-        <Navbar />
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Navbar toggleTheme={toggleTheme} /> {/* Pass toggle function to Navbar if needed */}
         <Body>
           <HeroSection />
           <Wrapper>
@@ -46,7 +54,7 @@ function App() {
             <Contact />
           </Wrapper>
           <Footer />
-          {openModal.state &&
+          {openModal.state && 
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
         </Body>
