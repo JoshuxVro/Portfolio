@@ -85,7 +85,7 @@ export const projects = [
     title: "Stock App",
     date: "Jun 2023 - Jul 2023",
     description:
-    "Stock Application that takes a stock ticker as input and predicts tomorrow's closing price, it also graphically represents prices of past 30 days",
+    "Developed a Stock Marker Closing Price Prediction App that takes ticker as input and gives the predicted closing price for output along with graphical representation. • Utilized LSTM Recurrent Neural Networks to predict prices. • Deployed the application into a docker container • Deployed the application as a flask app server using AWS EC2 instance and tested access in 2 different countries. • This project aimed to take real-time stock market data and make a robust prediction system to help investors in determine which stock to buyDeveloped a Stock Marker Closing Price Prediction App that takes ticker as input and gives the predicted closing price for output along with graphical representation. • Utilized LSTM Recurrent Neural Networks to predict prices. • Deployed the application into a docker container • Deployed the application as a flask app server using AWS EC2 instance and tested access in 2 different countries. • This project aimed to take real-time stock market data and make a robust prediction system to help investors in determine which stock to buy",
     image:"https://i.ibb.co/7KxTYB8/stock1-1.png",
     tags: [
       "Docker",
