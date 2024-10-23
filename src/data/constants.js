@@ -1,11 +1,5 @@
 export const Bio = {
   name: "Liandar Joshua",
-  roles: [
-    "Machine Learning",
-    "AI",
-    "Programmer",
-    "Student",
-  ],
   description:
   "I am an aspiring programmer, interested in machine learning,who's eager to gain hands on experience and work on real-world projects",
   github: "https://github.com/LiandarJoshua",
