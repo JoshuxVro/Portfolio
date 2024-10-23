@@ -80,6 +80,8 @@ export const HeroRightContainer = styled.div`
   order: 2;
   justify-content: end;
   gap: 12px;
+  overflow: hidden; /* Add this to hide the top part of the image */
+  
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -95,12 +97,15 @@ export const HeroRightContainer = styled.div`
 export const Img = styled.img`
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto; /* Use auto to maintain aspect ratio */
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
-
+  
+  /* Adjust the position and margin to crop the top */
+  margin-top: -30%; /* Adjust this value (20% to 30%) as needed */
+  
   @media (max-width: 768px) {
     max-width: 400px;
     max-height: 400px;
