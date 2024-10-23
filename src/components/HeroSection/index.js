@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-                        <Img src="https://i.ibb.co/3zx19gN/image1.jpg" alt="hero-image" />
+                        <Img src="https://i.ibb.co/4JG05QC/image1.jpg" alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
             </HeroContainer>
