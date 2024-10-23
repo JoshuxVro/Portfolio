@@ -11,25 +11,6 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
-    skills: [
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-    ],
-  },
-  {
     title: "Backend",
     skills: [
       
@@ -58,44 +39,20 @@ export const skills = [
       {
         name:"Streamlit",
         image:"https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png"
-      }
-    ],
-  },
- 
-  {
-    title: "Others",
-    skills: [
-      
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
         name: "Postman",
         image:
           "https://www.gartner.com/pi/vendorimages/postman_full-life-cycle-api-management_1633960356020.png",
-      },
-
-      {
-        name: "EDA",
-        image:"https://cdn0.iconfinder.com/data/icons/big-data-3-1/128/Exploratory-Analysis-patterns-methods-discovering-data-1024.png"
-      },
+      },{
+        name: "AWS",
+        image:
+          "https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo.png",
+      },{
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      }
     ],
   },
 ];
