@@ -148,6 +148,8 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <Desc><b>joshualiandar22@gmail.com</b></Desc>
+        <Desc><b>+91 7200347830</b></Desc>
+        <Desc><b>+971 502015350</b></Desc>
         
       </Wrapper>
     </Container>
